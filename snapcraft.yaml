@@ -1,7 +1,7 @@
 name:  mad-caps
 title:  Mad Caps
 version: "1.0"
-summary:  Nice match-3 game
+summary:   Nice match-3 game
 description: |
   Nice match-3 game
 
@@ -20,7 +20,7 @@ environment:
   SOMMELIER_STRICT: "1"                                    # Make Sommelier exit when unset variable is used. (useful to find bugs in sommelier)
 
 apps:
-  mad-caps
+  mad-caps:
     extensions: [ gnome-3-28 ]
     command: bin/sommelier run-exe
     environment:
