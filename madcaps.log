@@ -1,0 +1,109 @@
+5/20/2023 23:12:48
+//=====================================================//
+[ MainThread ] Client MainThread successfully registered.
+[ MainThread ] Mad Caps 1.0.2.17 GH
+[ MainThread ] CommandLine Arguments:
+[ MainThread ]    
+[ MainThread ] Memory: Allocated heap: Main Memory [32]
+[ MainThread ] Memory: Allocated heap: Image Memory [32]
+[ MainThread ] Memory: Allocated heap: Graphics Memory [32]
+[ MainThread ] Memory: Allocated hunk: Scene Graph Blt Pool [131072]
+[ MainThread ] Memory: Allocated hunk: Graphics Events [16384]
+[ MainThread ] Memory: Allocated hunk: DX8 Command Stream [131072]
+[ MainThread ] Memory: Allocated hunk: Particle System Memory [1048576]
+[ MainThread ] Memory: Allocated heap: Sound Memory [32]
+[ MainThread ] Memory: Allocated hunk: Music Memory [3145728]
+[ MainThread ] Memory: Allocated heap: UI Memory [32]
+[ MainThread ] Memory: Allocated heap:  [32]
+[ MainThread ] Memory: Allocated heap: Game Memory [32]
+[ MainThread ] Total Memory Allocated: [4473056]
+[ MainThread ] CPU Detection...
+[ MainThread ] ...Manufacturer: Intel Corporation
+[ MainThread ] ...Processor: Pentium III
+[ MainThread ] ...Features:
+[ MainThread ] ......FPU
+[ MainThread ] ......MMX
+[ MainThread ] ......SSE
+[ MainThread ] ......SSE2
+[ MainThread ] Ending CPU Detection
+[ MainThread ] 
+[ MainThread ] Beginning Main Loop...
+[ MainThread ] Testing for Hardware Acceleration...
+[ MainThread ] ...Direct3DCreate8(): Success!
+[ MainThread ] ...GetAdapterCount(): 1
+[ MainThread ] Hardware Acceleration Found!
+[ MainThread ] 
+[ MainThread ] ...RegisterClass(): Success!
+[ MainThread ] ...CreateWindow(): Success!
+[ MainThread ] Touching Memory: 4 ms
+[ MainThread ] 
+[ MainThread ] Initializing DirectX Graphics 8...
+[ MainThread ] ...Direct3DCreate8(): Success!
+[ MainThread ] ...GetAdapterCount(): 1
+[ MainThread ] .....Description: Mobile Intel(R) GM45 Express Chipset Family
+[ MainThread ] ........Driver: igdumd32.dll
+[ MainThread ] ........Version: 8.14.10.1666
+[ MainThread ] ........Desktop: 1280x800x32 60 hz
+[ MainThread ] ........GetAdapterModeCount(): 26
+[ MainThread ] ...GetDesktopInfo( 1280x800x32 )
+[ MainThread ] ...TestMode( 800, 600, 32, fullscreen ): 60 hzSuccess!
+[ MainThread ] ...CreateDevice(): Success!
+[ MainThread ] ...CheckDeviceFormat( D3DFMT_A8R8G8B8 ): Success!
+[ MainThread ] ...CheckDeviceFormat( D3DFMT_A4R4G4B4 ): Success!
+[ MainThread ] ...CreateVertexBuffer( 4000 ): Success!
+[ MainThread ] DirectX Graphics 8 Initialized!
+[ MainThread ] 
+[ MainThread ] 
+[ MainThread ] Initializing FSound...
+[ MainThread ] ...FSOUND_SetOutput(): Success!
+[ MainThread ] ...FSOUND_SetMemorySystem( 3145728 ): Success!
+[ MainThread ] ...FSOUND_SetDriver( 0 ): Success!
+[ MainThread ] ...FSOUND_SetBufferSize( 50 ): Success!
+[ MainThread ] ...FSOUND_Init( 44100, 24 ): Success!
+[ MainThread ] FSound Initialized!
+[ MainThread ] 
+[ MusicThread ] Client MusicThread successfully registered.
+[ MainThread ] Error: LoadSound: File not found: "data/sound/peek.ogg"
+[ MainThread ] Error: loadSounds(): Invalid sound file ( line: 21 )
+[ WorkerHS ] Client WorkerHS successfully registered.
+[ WorkerMain ] Client WorkerMain successfully registered.
+[ WorkerMain ] Thread WorkerMain successfully registered
+[ WorkerMain ] Thread WorkerMain successfully unregistered
+[ MainThread ] Total Load Time: 11874
+[ MainThread ] 
+[ MainThread ] Shutting Down DirectX Graphics 8...
+[ MainThread ] ...Release( s_polyVertexBuffer ): Success!
+[ MainThread ] ...Release( IDirect3DDevice8 ): Success(0)
+[ MainThread ] ...GetCount( IDirect3D8 ): 1
+[ MainThread ] ...Release( IDirect3D8 ): Success!
+[ MainThread ] DirectX Graphics 8 Terminated!
+[ MainThread ] 
+[ MainThread ] ...DestroyWindow(): Success!
+[ MainThread ] ...UnregisterClass(): Success!
+[ MusicThread ] Terminating Thread.
+[ MainThread ] 
+[ MainThread ] Shutting Down FSound...
+[ MainThread ] ...Allocated Memory: 3145728
+[ MainThread ] ...Current Memory Usage: 71680
+[ MainThread ] ...Peak Memory Usage: 298240
+[ MainThread ] ...FSOUND_Close(): Success!
+[ MainThread ] FSound Terminated!
+[ MainThread ] 
+[ MainThread ] Ending Main Loop...
+[ MainThread ] 
+[ MainThread ] 
+[ MainThread ] Heap Memory:
+[ MainThread ] ...Main Memory Allocs:[413] Frees:[408] Overflow:[412]Peak:[288512] Largest:[32] Size:[160] Frag:[125.00] OVERFLOW
+[ MainThread ] ...Image Memory Allocs:[262] Frees:[262] Overflow:[262]Peak:[6662272] Largest:[32] Size:[0] Frag:[0.00] OVERFLOW
+[ MainThread ] ...Graphics Memory Allocs:[2427] Frees:[2427] Overflow:[2426]Peak:[1062848] Largest:[32] Size:[0] Frag:[0.00] OVERFLOW
+[ MainThread ] ...Sound Memory Allocs:[176] Frees:[176] Overflow:[175]Peak:[3375616] Largest:[32] Size:[0] Frag:[0.00] OVERFLOW
+[ MainThread ] ...UI Memory Allocs:[728] Frees:[728] Overflow:[728]Peak:[203584] Largest:[32] Size:[0] Frag:[0.00] OVERFLOW
+[ MainThread ] ... Allocs:[0] Frees:[0] Overflow:[0]Peak:[0] Largest:[32] Size:[0] Frag:[0.00] OK
+[ MainThread ] ...Game Memory Allocs:[2] Frees:[2] Overflow:[2]Peak:[2080] Largest:[32] Size:[0] Frag:[0.00] OVERFLOW
+[ MainThread ] Hunk Memory:
+[ MainThread ] ...Scene Graph Blt Pool Peak:[1280] Size:[0]
+[ MainThread ] ...Graphics Events Peak:[0] Size:[0]
+[ MainThread ] ...DX8 Command Stream Peak:[2080] Size:[0]
+[ MainThread ] ...Particle System Memory Peak:[942080] Size:[942080]
+[ MainThread ] ...Music Memory Peak:[3145728] Size:[0]
+[ MainThread ] Memory: Total Memory Allocs[4008] Frees:[4003] Peak:[11594912] Size:[160]
